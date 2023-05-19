@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "LifeUK",
+    "name": "Life in the UK Free Exams",
     "slug": "LifeUK",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -18,16 +18,23 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.houseofdev.LifeintheUK"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.houseofdev.LifeintheUK"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "16b98ddb-d57a-4296-9788-2ae37ab011fc"
+      }
     }
   }
 }
